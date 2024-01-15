@@ -105,8 +105,46 @@ button {
 }
 
 .barcumb{
-    display: flex;
+    display: none;
     cursor: pointer;
+}
+
+
+/* Footer */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 335px;
+    padding-right: 335px;
+}
+.footer-content{
+    display: inline;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    margin-top: 15px;
+}
+.footer-content .list-icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    margin-bottom: 50px;
+}
+
+.footer-content .list-icon li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-content .copyright p{
+  margin-top: 50px;
 }
 /*  Responsive */
 
@@ -142,6 +180,10 @@ button {
    
 
     /*  Header */
+    .barcumb{
+        display: flex;
+        cursor: pointer;
+    }
     .header{
      padding: 19px 20px 20px 20px;
     }
@@ -151,5 +193,23 @@ button {
     .header .menu-item{
         display: none !important;
     }
+    /* Footer */
+    footer{
+        padding: 44px;
+        padding-bottom: 30px;
+        padding-top: 33px;
+    }
+    .footer-text{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .footer-content .list-icon {
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .footer-content .copyright p {
+        margin-top: 24px;
+    }
+
 
 }
