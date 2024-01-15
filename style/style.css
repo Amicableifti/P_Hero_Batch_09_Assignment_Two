@@ -1,0 +1,155 @@
+: root {
+    --font: 'Mulish', sans-serif;
+}
+
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+
+}
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 52px 0px 0px 0px;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* Header */
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 52px 0px 0px 0px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logowith-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logowith-text img {
+    width: 48px;
+    margin-right: 16px;
+}
+
+.logo-name {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo-name span {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header .menu-item li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 44px;
+}
+
+.header .menu-item li:hover {
+    color: #FF5400;
+    cursor: pointer;
+}
+
+.barcumb{
+    display: flex;
+    cursor: pointer;
+}
+/*  Responsive */
+
+@media only screen and (max-width: 600px) {
+
+    p {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    h1 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    button {
+        border-radius: 8px;
+        background: #FF5400;
+        height: 52px;
+        flex-shrink: 0;
+
+    }
+   
+
+    /*  Header */
+    .header{
+     padding: 19px 20px 20px 20px;
+    }
+    .logo-name , .logo-name span{
+        font-size: 21px;
+    }
+    .header .menu-item{
+        display: none !important;
+    }
+
+}
