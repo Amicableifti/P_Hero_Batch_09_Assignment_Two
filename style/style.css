@@ -699,10 +699,13 @@ footer {
         padding: 0px;
         justify-content: space-around;
         flex-direction: row;
+        display: block;
+        
 
     }
-    .card{
+    .card img{
         flex: 1;
+        width: 100%;
     }
     /* Poplar  Mobile */
     .poplar-tour {
@@ -712,6 +715,9 @@ footer {
 
     .popularimage {
         margin-top: 24px;
+    }
+    .popularimage img {
+        width: 100%;
     }
 
     .content {
@@ -730,6 +736,9 @@ footer {
         margin-bottom: 0px;
         margin-top: 0px;
     }
+    .first-row , .secoend-row , .third-row{
+        display: block;
+    }
 
     .chosse-destination .div-flex {
         flex-direction: column;
@@ -747,16 +756,19 @@ footer {
         padding-top: 125px;
         padding-bottom: 125px;
         background-size: cover;
-        padding-left: 200px;
-        padding-right: 250px;
         border-radius: 16px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
         margin-right: 0px;
-        width: 16%;
         margin-bottom: 16px;
         background-position: center;
 
     }
-
+    .chosse-destination{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
     /*  M*/
 
     .why-choose .chooseustitle p {
@@ -807,7 +819,13 @@ footer {
         border: 1px solid #FF5400;
         padding: 40px;
         margin-bottom: -30px;
-        width: 85%;
+        width: 80%;
+    }
+    .imagediscount img {
+        margin-bottom: -30px;
+        width: 100%;
+        margin-top: 25px;
+        border-radius: 16px;
     }
 
     /* Footer M */
