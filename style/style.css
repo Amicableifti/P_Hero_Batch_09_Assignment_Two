@@ -48,7 +48,7 @@ button,
     border-radius: 8px;
     border: 0px solid #fff;
     color: #fff;
-
+    cursor: pointer;
 }
 
 .header {
@@ -372,7 +372,7 @@ li {
 
 .why-choose .chooseustitle p {
     margin-top: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 
 .why-choose .box .box-1,
@@ -455,6 +455,7 @@ li {
 .newsletter .content-newsletter>p {
     margin-bottom: 24px;
     margin-top: 20px;
+    text-align: left;
 }
 
 .newsletter .content-newsletter>h3 {
