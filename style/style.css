@@ -149,7 +149,67 @@ li {
     align-items: center;
 }
 
+/* Banner */
 
+
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../Images/Group13.png");
+    /* background-image: url("../Images/Group13.png"); */
+    padding-top: 106px;
+    padding-bottom: 106px;
+    margin-top: 50px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+
+}
+
+.banner .title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 24px;
+}
+
+.seachall {
+    margin-right: 12px;
+    margin-left: 12px;
+
+}
+
+.search {
+    padding: 16px;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 800px;
+    margin: 0 auto;
+    border: none;
+    margin-top: 48px;
+}
+
+.seachall select {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px 84px 16px 16px;
+}
+
+.seachall button {
+    width: 175px;
+}
 
 /* Poplar Tour */
 .popular-tour .content {
@@ -168,19 +228,23 @@ li {
     text-align: left;
     margin-bottom: 24px;
 }
+
 /* Destination */
 
-.destination h1{
+.destination h1 {
     margin-bottom: 24px;
 }
-.secoend-row{
+
+.secoend-row {
     margin-bottom: 24px;
     margin-top: 24px;
 
 }
-.first-row{
+
+.first-row {
     margin-top: 48px;
 }
+
 .first-row .first-column {
     background-image: url("../Images/Rectangle 5.png");
     padding-top: 133px;
@@ -192,6 +256,7 @@ li {
     margin-right: 24px;
     background-position: center;
 }
+
 .first-row .secoend-column {
     background-image: url("/Images/Rectangle\ 8.png");
     padding-top: 133px;
@@ -203,13 +268,16 @@ li {
     margin-right: 24px;
     background-position: center;
 }
-.first-row h3 , .secoend-row h3 , .third-row h3{
+
+.first-row h3,
+.secoend-row h3,
+.third-row h3 {
     color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 28px;
-font-weight: 800;
-clear: both;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    clear: both;
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
@@ -225,8 +293,9 @@ clear: both;
     border-radius: 16px;
     margin-right: 24px;
     background-position: center;
-   
+
 }
+
 .secoend-row .secoend-column {
     background-image: url("/Images/Rectangle\ 7.png");
     padding-top: 125px;
@@ -237,8 +306,9 @@ clear: both;
     border-radius: 16px;
     margin-right: 24px;
     background-position: center;
-    
+
 }
+
 .secoend-row .third-column {
     background-image: url("/Images/Rectangle\ 9.png");
     padding-top: 125px;
@@ -249,7 +319,7 @@ clear: both;
     border-radius: 16px;
     margin-right: 24px;
     background-position: center;
-   
+
 }
 
 .third-row .first-column {
@@ -263,6 +333,7 @@ clear: both;
     margin-right: 24px;
     background-position: center;
 }
+
 .third-row .secoend-column {
     background-image: url("/Images/Rectangle\ 10.png");
     padding-top: 132px;
@@ -435,6 +506,7 @@ clear: both;
 .imagediscount img {
     margin-bottom: -30px;
 }
+
 .imagediscount img {
     margin-bottom: -30px;
     width: 100%;
@@ -491,6 +563,11 @@ footer {
     .div-flex {
         flex-direction: column;
         padding: 20px;
+    }
+    .banner {
+        width: 100%;
+        margin: 0 auto;
+    
     }
 
 
@@ -551,7 +628,49 @@ footer {
         display: none !important;
     }
 
-    /* Poplar */
+    /* Banner  Mobile*/
+    .banner {
+        background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/Group13.png);
+        padding-top: 32px;
+        padding-bottom: 48px;
+        margin-top: 0px;
+        border-radius: 16px;
+       
+    }
+    .banner-section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .seachall button {
+        width: 100%;
+    }
+    .banner .title {
+        font-size: 22px;
+    }
+    .banner>p {
+        margin-top: 5px;
+    }
+
+    .search {
+        max-width: 80%;
+    }
+    .seachall {
+        width: 100%;
+    
+        
+    }
+    .seachall {
+        margin-right: 12px;
+        margin-left: 12px;
+        margin-bottom: 16px;
+    }
+    .seachall select {
+        border-radius: 8px;
+        background: #FFF;
+        padding: 16px 84px 16px 16px;
+        width: 100%;
+    }
+    /* Poplar  Mobile */
     .poplar-tour {
         flex-direction: column;
         padding: 20px;
@@ -571,39 +690,40 @@ footer {
         text-align: left;
         margin-bottom: 16px;
     }
-    /* Destination */
+
+    /* Destination  M*/
     .secoend-row {
         margin-bottom: 0px;
         margin-top: 0px;
     }
+
     .chosse-destination .div-flex {
         flex-direction: column;
         padding: 0px;
     }
+
     .first-row .first-column,
     .first-row .secoend-column,
     .secoend-row .first-column,
     .secoend-row .secoend-column,
     .secoend-row .third-column,
     .third-row .first-column,
-    .third-row  .secoend-column
-    
-    {
-        
-    padding-top: 125px;
-    padding-bottom: 125px;
-    background-size: cover;
-    padding-left: 200px;
-    padding-right: 254px;
-    border-radius: 16px;
-    margin-right: 0px;
-    width: 16%;
-    margin-bottom: 16px;
-    background-position: center;
-        
+    .third-row .secoend-column {
+
+        padding-top: 125px;
+        padding-bottom: 125px;
+        background-size: cover;
+        padding-left: 200px;
+        padding-right: 250px;
+        border-radius: 16px;
+        margin-right: 0px;
+        width: 16%;
+        margin-bottom: 16px;
+        background-position: center;
+
     }
-    
-    /*  */
+
+    /*  M*/
 
     .why-choose .chooseustitle p {
         margin-top: 20px;
@@ -641,7 +761,7 @@ footer {
 
     }
 
-    /* Newsletter*/
+    /* Newsletter M*/
     .imagediscount img {
         margin-bottom: -30px;
         width: 100%;
@@ -656,7 +776,7 @@ footer {
         width: 85%;
     }
 
-    /* Footer */
+    /* Footer M */
     footer {
         padding-bottom: 30px;
         padding-top: 33px;
