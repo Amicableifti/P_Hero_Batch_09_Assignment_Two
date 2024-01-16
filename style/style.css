@@ -157,7 +157,7 @@ li {
     /* background-image: url("../Images/Group13.png"); */
     padding-top: 106px;
     padding-bottom: 106px;
-    margin-top: 50px;
+    margin-top: 0px;
     border-radius: 16px;
     background-repeat: no-repeat;
 
@@ -210,7 +210,23 @@ li {
 .seachall button {
     width: 175px;
 }
-
+/* Type Pc */
+.type-section h1 {
+    margin-bottom: 42px;
+    text-align: left;
+}
+.type{
+    justify-content: space-around;
+}
+.type img{
+    border-radius: 16px;
+}
+.type h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 16px;
+    cursor: pointer;
+}
 /* Poplar Tour */
 .popular-tour .content {
     margin-right: 55px;
@@ -669,6 +685,23 @@ footer {
         background: #FFF;
         padding: 16px 84px 16px 16px;
         width: 100%;
+    }
+    /* Types Mobile */
+    .type-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .type{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: space-around;
+        flex-direction: row;
+
+    }
+    .card{
+        flex: 1;
     }
     /* Poplar  Mobile */
     .poplar-tour {
