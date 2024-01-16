@@ -29,6 +29,15 @@ h1 {
     line-height: normal;
 }
 
+h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
 button {
     border-radius: 8px;
     background: #FF5400;
@@ -36,8 +45,8 @@ button {
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
-    border: 0px solid #fff ;
-    color : #fff;
+    border: 0px solid #fff;
+    color: #fff;
 
 }
 
@@ -54,9 +63,10 @@ button {
     margin: 0 auto;
 
 }
+
 .div-padding {
-padding-top: 25px;
-padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -141,21 +151,83 @@ li {
 
 
 /* Poplar Tour */
-.poplar-tour .content {
+.popular-tour .content {
     margin-right: 55px;
-    
+
 }
 
-.content .list-item{
+.content .list-item {
 
     margin-left: 20px;
 }
-.content h1 , .content p, .content li{
+
+.content h1,
+.content p,
+.content li {
     text-align: left;
     margin-bottom: 24px;
 }
 
+/* Why Choose Us */
 
+.why-choose .box img {
+    width: 64px;
+    margin-bottom: 0px;
+}
+.why-choose .chooseustitle p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.why-choose .box .box-1 , .why-choose .box .box-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-right: 55px;
+}
+.why-choose .box .box-3 {
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    padding-right: 55px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.why-choose .box{
+    flex-wrap: wrap;
+    gap: 12px
+}
+.why-choose .box div {
+    flex: 33%;
+}
+
+.why-choose .box h4 {
+    color: #131318;
+text-align: left;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 32px;
+margin-bottom: 20px;
+
+}
+
+.why-choose .box P {
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+text-align: left;
+}
 /* Footer */
 
 footer {
@@ -195,10 +267,19 @@ footer {
 .footer-content .copyright p {
     margin-top: 50px;
 }
+.footer{
 
+}
 /*  Responsive */
 
 @media only screen and (max-width: 600px) {
+
+
+    .div-flex {
+        flex-direction: column;
+        padding: 20px;
+    }
+
 
     body {
         overflow-x: hidden;
@@ -232,6 +313,11 @@ footer {
 
     }
 
+    .div-padding {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
 
     /*  Header */
     .barcumb {
@@ -251,29 +337,68 @@ footer {
     .header .menu-item {
         display: none !important;
     }
-     /* Poplar */
-     .poplar-tour {
+
+    /* Poplar */
+    .poplar-tour {
         flex-direction: column;
         padding: 20px;
     }
-    .div-flex {
-        flex-direction: column;
-        padding: 20px;
-    }
-    .popularimage{
+
+    .popularimage {
         margin-top: 24px;
     }
+
     .content {
         margin-right: 0px;
     }
-    .content h1, p, li {
+
+    .content h1,.content 
+    p, .content 
+    li {
         text-align: left;
         margin-bottom: 16px;
     }
 
+    /*  */
+
+    .why-choose .chooseustitle p {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        text-align-last: center;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    .why-choose .box {
+        flex-wrap: nowrap;
+        gap: 16px;
+    }
+    .why-choose .box .box-3 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .why-choose .box img {
+        width: 48px;
+        margin-bottom: 0px;
+    }
+    .why-choose .box h4 {     
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .why-choose .box .box-1 ,
+    .why-choose .box .box-2 ,
+    .why-choose .box .box-3 
+    {     
+        padding-right: 32px;  
+    
+    }  
+   
+    {
+        padding-right: 32px;
+    }
+
     /* Footer */
     footer {
-        padding: 44px;
         padding-bottom: 30px;
         padding-top: 33px;
     }
@@ -291,8 +416,13 @@ footer {
     .footer-content .copyright p {
         margin-top: 24px;
     }
-   
-
-
+    .footer {
+        background: rgba(19, 19, 24, 0.05);
+        padding-top: 110px;
+        padding-bottom: 110px;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 100%;
+    }
 
 }
