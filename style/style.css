@@ -141,7 +141,7 @@ li {
 
 
 /* Poplar Tour */
-.content {
+.poplar-tour .content {
     margin-right: 55px;
     
 }
@@ -150,7 +150,7 @@ li {
 
     margin-left: 20px;
 }
-.content h1 ,p,li{
+.content h1 , .content p, .content li{
     text-align: left;
     margin-bottom: 24px;
 }
