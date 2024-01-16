@@ -168,6 +168,113 @@ li {
     text-align: left;
     margin-bottom: 24px;
 }
+/* Destination */
+
+.destination h1{
+    margin-bottom: 24px;
+}
+.secoend-row{
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+}
+.first-row{
+    margin-top: 48px;
+}
+.first-row .first-column {
+    background-image: url("../Images/Rectangle 5.png");
+    padding-top: 133px;
+    padding-bottom: 133px;
+    background-size: cover;
+    padding-left: 227px;
+    padding-right: 227px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-position: center;
+}
+.first-row .secoend-column {
+    background-image: url("/Images/Rectangle\ 8.png");
+    padding-top: 133px;
+    padding-bottom: 133px;
+    background-size: cover;
+    padding-left: 227px;
+    padding-right: 227px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-position: center;
+}
+.first-row h3 , .secoend-row h3 , .third-row h3{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.secoend-row .first-column {
+    background-image: url("../Images/Rectangle\ 6.png");
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-size: cover;
+    padding-left: 130px;
+    padding-right: 130px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-position: center;
+   
+}
+.secoend-row .secoend-column {
+    background-image: url("/Images/Rectangle\ 7.png");
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-size: cover;
+    padding-left: 137px;
+    padding-right: 137px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-position: center;
+    
+}
+.secoend-row .third-column {
+    background-image: url("/Images/Rectangle\ 9.png");
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-size: cover;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-position: center;
+   
+}
+
+.third-row .first-column {
+    background-image: url("/Images/Rectangle\ 11.png");
+    padding-top: 132px;
+    padding-bottom: 132px;
+    background-size: cover;
+    padding-left: 156px;
+    padding-right: 156px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-position: center;
+}
+.third-row .secoend-column {
+    background-image: url("/Images/Rectangle\ 10.png");
+    padding-top: 132px;
+    padding-bottom: 132px;
+    background-size: cover;
+    padding-left: 260px;
+    padding-right: 260px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-position: center;
+}
+
 
 /* Why Choose Us */
 
@@ -464,7 +571,38 @@ footer {
         text-align: left;
         margin-bottom: 16px;
     }
-
+    /* Destination */
+    .secoend-row {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .chosse-destination .div-flex {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .first-row .first-column,
+    .first-row .secoend-column,
+    .secoend-row .first-column,
+    .secoend-row .secoend-column,
+    .secoend-row .third-column,
+    .third-row .first-column,
+    .third-row  .secoend-column
+    
+    {
+        
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-size: cover;
+    padding-left: 200px;
+    padding-right: 254px;
+    border-radius: 16px;
+    margin-right: 0px;
+    width: 16%;
+    margin-bottom: 16px;
+    background-position: center;
+        
+    }
+    
     /*  */
 
     .why-choose .chooseustitle p {
