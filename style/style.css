@@ -255,7 +255,7 @@ li {
     margin-bottom: 24px;
     margin-top: 24px;
 
-}
+} 
 
 .first-row {
     margin-top: 48px;
@@ -274,7 +274,7 @@ li {
 }
 
 .first-row .secoend-column {
-    background-image: url("/Images/Rectangle\ 8.png");
+    background-image: url("../Images/Rectangle\ 8.png");
     padding-top: 133px;
     padding-bottom: 133px;
     background-size: cover;
@@ -313,7 +313,7 @@ li {
 }
 
 .secoend-row .secoend-column {
-    background-image: url("/Images/Rectangle\ 7.png");
+    background-image: url("../Images/Rectangle\ 7.png");
     padding-top: 125px;
     padding-bottom: 125px;
     background-size: cover;
@@ -326,7 +326,7 @@ li {
 }
 
 .secoend-row .third-column {
-    background-image: url("/Images/Rectangle\ 9.png");
+    background-image: url("../Images/Rectangle\ 9.png");
     padding-top: 125px;
     padding-bottom: 125px;
     background-size: cover;
@@ -339,7 +339,7 @@ li {
 }
 
 .third-row .first-column {
-    background-image: url("/Images/Rectangle\ 11.png");
+    background-image: url("../Images/Rectangle\ 11.png");
     padding-top: 132px;
     padding-bottom: 132px;
     background-size: cover;
@@ -351,7 +351,7 @@ li {
 }
 
 .third-row .secoend-column {
-    background-image: url("/Images/Rectangle\ 10.png");
+    background-image: url("../Images/Rectangle\ 10.png");
     padding-top: 132px;
     padding-bottom: 132px;
     background-size: cover;
